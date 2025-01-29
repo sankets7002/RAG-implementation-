@@ -14,6 +14,8 @@ Seamless Integration: Connects Qdrant with Groq for real-time response generatio
 Scalability: Supports large-scale document retrieval and processing.
 
 **STEPS TO DO IT-**
+
+<h3>SETP 1</h3>
 You'll need to install the following Python packages for this script to work properly. Run this command in your terminal or command prompt:
 
 ```bash
@@ -37,7 +39,7 @@ pip install os dotenv qdrant-client sentence-transformers groq tiktoken PyPDF2 n
    ```bash
    pip install groq
    ```
-5. **`tiktoken`** – For tokenization (used for OpenAI-like models).  
+5. **`tiktoken`** – For tokenization.  
    ```bash
    pip install tiktoken
    ```
@@ -49,5 +51,13 @@ pip install os dotenv qdrant-client sentence-transformers groq tiktoken PyPDF2 n
    ```bash
    pip install numpy
    ```
+<h3>SETP 2</h3> - 
+CREATE account and GET API KEYS  
+QDRANT = https://qdrant.tech/
+GROQ = https://groq.com/
 
-After installing these dependencies, your script should work without issues. Let me know if you face any errors! 🚀
+<h3>SETP 3</h3>
+Open .env add API key and URL 
+
+<h3>SETP 4</h3>
+RUN app.py 

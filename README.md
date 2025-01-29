@@ -13,6 +13,8 @@ Fast and Cost-effective LLM Inference: Uses Groq's LLM for high-performance text
 Seamless Integration: Connects Qdrant with Groq for real-time response generation.
 Scalability: Supports large-scale document retrieval and processing.
 
+Requirement - VS Code, Python
+
 **STEPS TO DO IT-**
 
 <h3>SETP 1</h3>
